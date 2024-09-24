@@ -54,17 +54,17 @@ const result4 = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
 
 
 {
-const multiplyBy2 = (input) => { return input * 2 }
+    const multiplyBy2 = (input) => { return input * 2 }
 }
 // So where the function is a single expression to evaluate and then return, ES2015
 // lets us remove the { } and return keyword
 {
-const multiplyBy2 = (input) => input * 2
-const output = multiplyBy2(3) //6
+    const multiplyBy2 = (input) => input * 2
+    const output = multiplyBy2(3) //6
 
 }
 // We can even remove the parenthesis if there’s only 1 parameter(expected input)
 {
-const multiplyBy2 = input => input * 2
-const output = multiplyBy2(3) //6
+    const multiplyBy2 = input => input * 2
+    const output = multiplyBy2(3) //6
 }
