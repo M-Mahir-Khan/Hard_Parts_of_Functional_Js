@@ -21,3 +21,4 @@ array.push(10) // Where’s this push method come from?
 // by a ‘dot’ and the method name (See OOP JS Hard Parts)
 // — The link to this object full of shared methods is on the
 // __proto__ property
+
